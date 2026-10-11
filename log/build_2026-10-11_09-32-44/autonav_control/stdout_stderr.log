@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing autonav_control.egg-info/PKG-INFO
+writing dependency_links to autonav_control.egg-info/dependency_links.txt
+writing requirements to autonav_control.egg-info/requires.txt
+writing top-level names to autonav_control.egg-info/top_level.txt
+reading manifest file 'autonav_control.egg-info/SOURCES.txt'
+writing manifest file 'autonav_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/deep_06/AutoNav-AI-ROS2/install/autonav_control/lib/python3.12/site-packages/autonav-control.egg-link (link to .)
+
+Installed /home/deep_06/AutoNav-AI-ROS2/build/autonav_control
+running symlink_data
