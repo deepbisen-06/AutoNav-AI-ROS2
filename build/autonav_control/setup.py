@@ -1,1 +1,0 @@
-/home/deep_06/AutoNav-AI-ROS2/src/autonav_control/setup.py
