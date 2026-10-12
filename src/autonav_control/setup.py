@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        ],
+            'robot_status_publisher = autonav_control.robot_status_publisher:main',
+         ],
     },
 )
