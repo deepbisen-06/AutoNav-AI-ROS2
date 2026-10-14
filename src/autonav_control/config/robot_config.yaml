@@ -1,0 +1,9 @@
+/robot_config:
+  ros__parameters:
+    autonomous_mode: false
+    max_speed: 0.6
+    robot_name: AutoNav AI
+    safety_distance: 1.6
+    start_type_description_service: true
+    use_sim_time: false
+

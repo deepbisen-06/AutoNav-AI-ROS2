@@ -28,6 +28,7 @@ setup(
             'robot_status_subscriber = autonav_control.robot_status_subscriber:main',
 	    'add_two_ints_server = autonav_control.add_two_ints_server:main',
             'add_two_ints_client = autonav_control.add_two_ints_client:main',
+	    'robot_config = autonav_control.robot_config:main',
          ],
     },
 )
