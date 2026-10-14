@@ -25,7 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             'robot_status_publisher = autonav_control.robot_status_publisher:main',
-            'robot_status_subscriber = autonav_control.robot_status_subscriber:main'
+            'robot_status_subscriber = autonav_control.robot_status_subscriber:main',
+	    'add_two_ints_server = autonav_control.add_two_ints_server:main',
+            'add_two_ints_client = autonav_control.add_two_ints_client:main',
          ],
     },
 )
