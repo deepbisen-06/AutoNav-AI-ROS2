@@ -46,6 +46,7 @@ setup(
             'add_two_ints_client = autonav_control.add_two_ints_client:main',
 	    'robot_config = autonav_control.robot_config:main',
 	    'turtle_motion = autonav_control.turtle_motion:main',
+	    'go_to_goal = autonav_control.go_to_goal:main',
          ],
     },
 )
