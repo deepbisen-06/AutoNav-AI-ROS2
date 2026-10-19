@@ -49,6 +49,7 @@ setup(
 	    'go_to_goal = autonav_control.go_to_goal:main',
 	    'waypoint_navigation = autonav_control.waypoint_navigation:main',
 	    'odometry_publisher = autonav_control.odometry_publisher:main',
+	    'differential_drive = autonav_control.differential_drive:main',
          ],
     },
 )
