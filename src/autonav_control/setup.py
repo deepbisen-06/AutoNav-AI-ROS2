@@ -50,6 +50,7 @@ setup(
 	    'waypoint_navigation = autonav_control.waypoint_navigation:main',
 	    'odometry_publisher = autonav_control.odometry_publisher:main',
 	    'differential_drive = autonav_control.differential_drive:main',
+	    'velocity_smoother = autonav_control.velocity_smoother:main',
          ],
     },
 )
