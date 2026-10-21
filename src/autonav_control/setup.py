@@ -26,6 +26,8 @@ setup(
              os.path.join('share', 'autonav_control', 'config'),
              glob('config/*.yaml')
         ),
+	('share/' + package_name + '/urdf', glob('urdf/*.urdf')
+	),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
