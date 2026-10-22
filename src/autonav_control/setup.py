@@ -53,6 +53,7 @@ setup(
 	    'odometry_publisher = autonav_control.odometry_publisher:main',
 	    'differential_drive = autonav_control.differential_drive:main',
 	    'velocity_smoother = autonav_control.velocity_smoother:main',
+	    'robot_motion = autonav_control.robot_motion:main',
          ],
     },
 )
