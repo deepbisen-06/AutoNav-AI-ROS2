@@ -54,6 +54,7 @@ setup(
 	    'differential_drive = autonav_control.differential_drive:main',
 	    'velocity_smoother = autonav_control.velocity_smoother:main',
 	    'robot_motion = autonav_control.robot_motion:main',
+	    'map_frame_publisher = autonav_control.map_frame_publisher:main',
          ],
     },
 )
