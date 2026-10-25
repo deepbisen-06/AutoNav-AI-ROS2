@@ -26,7 +26,13 @@ setup(
              os.path.join('share', 'autonav_control', 'config'),
              glob('config/*.yaml')
         ),
-	('share/' + package_name + '/urdf', glob('urdf/*.urdf')
+	(
+             os.path.join('share', 'autonav_control', 'urdf'),
+             glob('urdf/*.urdf')
+	),
+	(
+             os.path.join('share', 'autonav_control', 'rviz'),
+             glob('rviz/*.rviz')
 	),
     ],
     install_requires=['setuptools'],
@@ -55,6 +61,7 @@ setup(
 	    'velocity_smoother = autonav_control.velocity_smoother:main',
 	    'robot_motion = autonav_control.robot_motion:main',
 	    'map_frame_publisher = autonav_control.map_frame_publisher:main',
+	    'visualization_node = autonav_control.visualization_node:main',
          ],
     },
 )
